@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+:root{
+  --Soft-orange: hsl(35, 77%, 62%);
+  --Soft-red: hsl(5, 85%, 63%);
+  --Off-white: hsl(36, 100%, 99%);
+  --Grayish-blue: hsl(233, 8%, 79%);
+  --Dark-grayish-blue: hsl(236, 13%, 42%);
+  --Very-dark-blue: hsl(240, 100%, 5%);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img,
+svg{
+  max-width: 100%;
+  display: block;
+}
+.dropdown-menu,.toggle,.mobile{
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  background-color: var(--Off-white);
+  min-height: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 100%;
+  max-width: 1440px;
+  height: 1024px;
+  padding: 5rem 10rem;
+}
+header {
+  width: 100%;
+  height: fit-content;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation{
+  display: flex;
+  gap: 2rem;
+}
+.navigation a{
+  text-transform: capitalize;
+  color: var(--Dark-grayish-blue);
+  font-size: 15px;
+  font-weight: 500;
+  transition: all .2s ease-in-out;
+}
+.navigation a:hover{
+  cursor: pointer;
+  color: var(--Soft-red);
+}
+.content{
+  width: 100%;
+  height: fit-content;
+}
+.sect1{
+  display: flex;
+  margin-top: 1.85rem;
+}
+/* LEFT CONTENT STYLES */
+.left-content{
+  max-width: 730px;
+  width: 100%;
+  margin-right: 1.87rem;
+}
+.left-content-img{
+  width: 100%;
+}
+.left-content-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.left-content-info h1{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 1;
+  width: 50%;
+}
+.info{
+  width: 50%;
+}
+.info p{
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--Very-dark-blue);
+}
+.button{
+  background-color: var(--Soft-red);
+  width: 175px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border: none;
+  color: var(--Off-white);
+  text-transform: uppercase;
+  transition: all .25s ease-in-out;
+}
+.button:hover{
+  cursor: pointer;
+  background-color: var(--Very-dark-blue);
+}
+/* RIGHT CONTENT STYLES*/
+.right-content{
+  width: 100%;
+  max-width: 350px;
+  height: 460px;
+  padding: 1.5rem 1rem;
+  color: var(--Off-white);
+  background-color: var(--Very-dark-blue);
+}
+.right-content h2{
+  color: var(--Soft-orange);
+  font-size: 28px;
+  margin-bottom: 1.2rem;
+}
+.right-content .news{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.right-content .news h3 a{
+  color: var(--Off-white);
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+.right-content .news h3 a:hover{
+  cursor: pointer;
+  color: var(--Soft-orange);
+}
+.right-content .news p{
+  color: var(--Grayish-blue);
+  line-height: 1.4;
+  font-size: 16px;
+}
+.divider{
+  margin-top: 1.85rem;
+  margin-bottom: 1.85rem;
+  border: none;
+  border-bottom: 1px solid var(--Grayish-blue);
+  opacity: .5;
+}
+/* BOTTOM SECT STYLES */
+.bottom-sect{
+  display: flex;
+  /*gap: 2rem;*/
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 4rem;
+}
+.bottom-news{
+  display: flex;
+  gap: 1rem;
+  width: 33.33%;
+}
+.bottom-sect div:nth-child(2){
+  margin-right: 1.3rem;
+}
+.retro-pcs img,.laptops img,.gaming img{
+  width: 100%;
+  height: 180px;
+  width: 254px;
+}
+.retro-info,.laptops-info,.gaming-info{
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+h4{
+  color: var(--Grayish-blue);
+  font-size: 18px;
+}
+h5 a{
+  color: var(--Very-dark-blue);
+  font-size: 14px;
+  transition: all .2s ease-in-out;
+}
+h5 a:hover{
+  cursor: pointer;
+  color: var(--Soft-red);
+}
+.retro-info p,.laptops-info p,.gaming-info p{
+  color: var(--Dark-grayish-blue);
+  font-size: 12px;
+  line-height: 1.5;
+}
