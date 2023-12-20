@@ -290,7 +290,7 @@ h5 a:hover{
      cursor: pointer;
    }
    .dropdown-menu.open{
-     height: 800px;
+     height: 100vh;
      display: block;
    }
   .dropdown-menu{
