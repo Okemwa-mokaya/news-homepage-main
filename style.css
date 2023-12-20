@@ -118,10 +118,12 @@ header {
   justify-content: center;
   margin-top: 2rem;
   border: none;
-  color: var(--Off-white);
   letter-spacing: 0.2em;
   text-transform: uppercase;
   transition: all .25s ease-in-out;
+}
+.button a{
+  color: var(--Off-white);
 }
 .button:hover{
   cursor: pointer;
@@ -322,6 +324,10 @@ h5 a:hover{
    color: var(--Very-dark-blue);
    font-weight: 500;
    font-size: 20px;
+  }
+  .dropdown-menu li a:hover{
+    color: var(--Soft-red);
+    cursor: pointer;
   }
   /*.dropdown-menu li,.dropdown-menu .close{
     display: none;
