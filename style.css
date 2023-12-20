@@ -304,11 +304,15 @@ h5 a:hover{
     transition: all .25s ease-in-out;
   }
   .dropdown-menu .close{
-    margin-left: 16rem;
-    margin-top: 1rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
     margin-bottom: 6rem;
     cursor: pointer;
   }
+  /*.dropdown-menu div:nth-child(2){
+    margin-top: 6rem;
+  }*/
   .dropdown-menu li{
     margin-left: 1rem;
     margin-bottom: 1.5rem;
