@@ -230,7 +230,7 @@ h5 a:hover{
     flex-direction: column;
   }
   .left-content-info h1{
-    width: 450px;
+    /*width: 450px;*/
     margin-bottom: 2rem;
   }
   .info{
