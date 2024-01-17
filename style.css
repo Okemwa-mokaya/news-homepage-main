@@ -133,7 +133,6 @@ header {
 .right-content{
   width: 100%;
   max-width: 350px;
-  /*height: 460px;*/
   padding: 1.5rem 1rem;
   color: var(--Off-white);
   background-color: var(--Very-dark-blue);
@@ -173,7 +172,6 @@ header {
 /* BOTTOM SECT STYLES */
 .bottom-sect{
   display: flex;
-  /*gap: 2rem;*/
   justify-content: space-between;
   width: 100%;
   margin-top: 4rem;
@@ -284,10 +282,6 @@ h5 a:hover{
    .desktop,.navigation{
       display: none;
    }
-   /*.container.active{
-      filter: blur(15px);
-   }*/
-   /*DROPDOWN MENU*/
    .toggle{
      cursor: pointer;
    }
@@ -329,12 +323,6 @@ h5 a:hover{
     color: var(--Soft-red);
     cursor: pointer;
   }
-  /*.dropdown-menu li,.dropdown-menu .close{
-    display: none;
-  }*/
-  /*.dropdown-menu.open li,.dropdown-menu.open .close{
-    display: block;
-  }*/
 }
 @media screen and (max-width: 576px){
   .container{
